@@ -1,8 +1,7 @@
+from env import TOKEN #Импортирую токен, чтобы его никто не украл)
 import logging
 
 from aiogram import Bot, Dispatcher, executor, types
-
-TOKEN = "6260810703:AAGwHflqxop28ahbqRReoCBPjvCb8TzjohI"
 
 # print(aiogramm.__version__)
 
