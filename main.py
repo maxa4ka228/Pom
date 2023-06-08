@@ -1,7 +1,7 @@
 from env import TOKEN #Импортирую токен, чтобы его никто не украл)
 import logging
 
-from aiogram import Bot, Dispatcher, executor, types
+from aiogram import Bot, Dispatcher, executor, types # Ссылка на бота в телеграмме -> https://t.me/Pon228723_bot
 
 # print(aiogramm.__version__)
 
