@@ -1,9 +1,6 @@
 from env import TOKEN #Импортирую токен, чтобы его никто не украл)
 import logging
-
-from aiogram import Bot, Dispatcher, executor, types # Ссылка на бота в телеграмме -> https://t.me/Pon228723_bot
-
-# print(aiogramm.__version__)
+from aiogram import Bot, Dispatcher, executor, types# Ссылка на бота в телеграмме -> https://t.me/Pon228723_bot
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
@@ -11,7 +8,6 @@ dp = Dispatcher(bot)
 @dp.message_handler(commands=['start', 'help'])
 async def send_welcome(message: types.Message):
     await message.reply("Привет!\nЯ первый бот Алексей!\nНапиши мне и я повторю за тобой и напишу твой имя ;)")
-
 
 @dp.message_handler()
 async def echo(message: types.Message):
