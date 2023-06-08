@@ -1,2 +1,2 @@
 # Pom
-#Boris ibezyana
+#Boris obezyana
